@@ -4,7 +4,7 @@
 void main(){
 char str[10];
 clrscr();
-printf("\nKaran Kanojia\n1901330100132\n");
+printf("\nRajan Kumar\n1901330100213\n");
 printf("Enter a string : ");
 scanf("%s",&str);
 //printf(str);
