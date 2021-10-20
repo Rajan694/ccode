@@ -1,3 +1,4 @@
+//Sort out identifiers, operators from a string
 #include<stdio.h>
 #include<conio.h>
 #include<conio.h>
@@ -6,6 +7,7 @@ void main()
 int i=0,j=0,k=0;
 char str[20],id[30],op[30];
 clrscr();
+printf("\nRajan Kumar\n1901330100213\n");
 printf("Enter string : ");
 gets(str);
 while(str[i]!='\0')
@@ -24,9 +26,9 @@ while(str[i]!='\0')
 }
 id[j-1]='\0';
 op[k-1]='\0';
-printf("Identifiers re : ");
+printf("Identifiers are : ");
 puts(id);
-printf("Opertors re : ");
+printf("Opertors are : ");
 puts(op);
 getch();
 }
