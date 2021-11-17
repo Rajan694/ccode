@@ -35,7 +35,7 @@ void main()
        }
 
    }
-void check()
+void flag()
    {
      strcpy(ac,"Reduce to E");
      for(z=0; z<c; z++)
